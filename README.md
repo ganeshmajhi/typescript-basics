@@ -29,3 +29,8 @@
 | Predicitbility | Required Compilation |
 | Popular | Not True Static Typing |
 | Readability |  |
+
+# Compiling Typescript
+
+- Typescript uses **.ts** and **.tsx** extensions.
+- **TSC** (TypeScript Compiler) is used to compile .ts file down to js.
