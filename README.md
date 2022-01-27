@@ -34,3 +34,7 @@
 
 - Typescript uses **.ts** and **.tsx** extensions.
 - **TSC** (TypeScript Compiler) is used to compile .ts file down to js.
+- Can watch files and report errors at the compile time.
+- Many tools like TS Compilation by default.
+- Most IDEs have great support for TS.
+- The **tsconfig.json** file is used to configure how typescript work.
