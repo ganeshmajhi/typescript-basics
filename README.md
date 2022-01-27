@@ -19,3 +19,13 @@
 | ----------- | ----------- |
 | Static  | Java, C, C++, Rust, Go |
 | Dynamic| **Javascript**, Python, Ruby, PHP |
+
+# PROS and CONS
+
+| Pros | Cons |
+| ----------- | ----------- |
+| More Robust | More Code to Write |
+| Easily Spot Bugs | More to learn |
+| Predicitbility | Required Compilation |
+| Popular | Not True Static Typing |
+| Readability |  |
