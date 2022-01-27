@@ -14,3 +14,8 @@
 ### In **Dynamically typed languages**, the types are associated with run-time values and named explicitely in your code.
 
 ### In **Statically typed languages**, you explicitely asigns types to variables, function parameters, return values, etc.
+
+| Examples | Languages |
+| ----------- | ----------- |
+| Static  | Java, C, C++, Rust, Go |
+| Dynamic| **Javascript**, Python, Ruby, PHP |
