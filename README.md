@@ -7,4 +7,4 @@
 - Compiles down to regular JS.
 - Can be used in front-end as well as backend using node.js.
 - Includes most features from ES6, ES7 (Classes, Arrow Functions, etc).
-- Types from the X^2^ party libraries can be added with **Type Defination**.
+- Types from the 3<sup>rd</sup> party libraries can be added with **Type Defination**.
