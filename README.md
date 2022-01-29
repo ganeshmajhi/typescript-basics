@@ -42,4 +42,5 @@
 # Start Learning Typescript
 
 - `npm install -g typescript` - install typescript globally
-- `tsc -v` - know which version on typescript compiler.
+- `tsc -v` - know which version of typescript compiler.
+- `tsc --watch index` - watch the file , i.e., auto compiler
