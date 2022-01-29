@@ -38,3 +38,7 @@
 - Many tools like TS Compilation by default.
 - Most IDEs have great support for TS.
 - The **tsconfig.json** file is used to configure how typescript work.
+
+# Start Learning Typescript
+
+- `npm install -g typescript`
