@@ -43,4 +43,5 @@
 
 - `npm install -g typescript` - install typescript globally
 - `tsc -v` - know which version of typescript compiler.
-- `tsc --watch index` - watch the file , i.e., auto compiler
+- `tsc --watch index` - watch the file , i.e., auto compiler,
+- `tsc --init` - initialise a configuration file.
