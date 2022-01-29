@@ -41,4 +41,5 @@
 
 # Start Learning Typescript
 
-- `npm install -g typescript`
+- `npm install -g typescript` - install typescript globally
+- `tsc -v` - know which version on typescript compiler.
