@@ -45,3 +45,4 @@
 - `tsc -v` - know which version of typescript compiler.
 - `tsc --watch index` - watch the file , i.e., auto compiler,
 - `tsc --init` - initialise a configuration file.
+- uncomment the outdir in tsconfig.json and add dist folder to it.
