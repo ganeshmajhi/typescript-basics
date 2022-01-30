@@ -44,3 +44,11 @@ var user2 = {
     id: 1,
     name: 'ganesh'
 };
+// Type Assortion
+var cid = 1;
+var customerId = cid;
+customerId = 4;
+//Example 2
+var xid = 'ganesh';
+var xumerId = xid;
+xumerId = 3;

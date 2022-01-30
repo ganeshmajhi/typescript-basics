@@ -52,9 +52,7 @@ console.log(direction2.Left)
 const user: {
     id: number,
     name: string
-} 
-
- = {
+} = {
     id: 1,
     name: 'ganesh'
 }
@@ -68,3 +66,16 @@ const user2:User1 ={
     id:1,
     name: 'ganesh'
 }
+// Type Assortion
+
+let cid: any =1
+let customerId = <number>cid
+
+customerId = 4
+
+//Example 2
+
+let xid:any = 'ganesh'
+let xumerId = xid as number
+
+xumerId = 3
