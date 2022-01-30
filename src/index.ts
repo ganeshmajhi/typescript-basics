@@ -37,7 +37,7 @@ enum direction1{
     Left,
     Right
 }
-console.log(direction1.Left)
+//console.log(direction1.Left)
 
 enum direction2{
     Up = 'so',
@@ -45,7 +45,7 @@ enum direction2{
     Left ='love',
     Right ='for'
 }
-console.log(direction2.Left)
+//console.log(direction2.Left)
 
 // Object
 
@@ -79,3 +79,18 @@ let xid:any = 'ganesh'
 let xumerId = xid as number
 
 xumerId = 3
+
+//Function
+
+function addNum(x:number,y:number):number{
+    return x+y
+}
+
+console.log(addNum(54,3))
+
+// Void Function
+
+function log(message: string | number):void {
+    console.log(message)
+}
+log('hello')

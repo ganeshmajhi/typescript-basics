@@ -26,7 +26,7 @@ var direction1;
     direction1[direction1["Left"] = 3] = "Left";
     direction1[direction1["Right"] = 4] = "Right";
 })(direction1 || (direction1 = {}));
-console.log(direction1.Left);
+//console.log(direction1.Left)
 var direction2;
 (function (direction2) {
     direction2["Up"] = "so";
@@ -34,7 +34,7 @@ var direction2;
     direction2["Left"] = "love";
     direction2["Right"] = "for";
 })(direction2 || (direction2 = {}));
-console.log(direction2.Left);
+//console.log(direction2.Left)
 // Object
 var user = {
     id: 1,
@@ -52,3 +52,13 @@ customerId = 4;
 var xid = 'ganesh';
 var xumerId = xid;
 xumerId = 3;
+//Function
+function addNum(x, y) {
+    return x + y;
+}
+console.log(addNum(54, 3));
+// Void Function
+function log(message) {
+    console.log(message);
+}
+log('hello');
