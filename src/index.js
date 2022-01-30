@@ -66,3 +66,7 @@ var perid = {
     id: 1,
     name: 'gani'
 };
+var add = function (x, y) { return x + y; };
+var sub = function (x, y) { return x - y; };
+console.log(sub(4, 5));
+// Classes

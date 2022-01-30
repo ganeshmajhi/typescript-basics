@@ -105,3 +105,17 @@ const perid:User4 ={
     id:1,
     name:'gani'
 }
+
+// Interface Function
+
+interface MathFun {
+    (x:number,y:number):number
+}
+
+const add:MathFun = (x:number,y:number):number => x+y
+const sub:MathFun = (x:number,y:number):number => x-y
+
+console.log(sub(4,5))
+
+// Classes
+
