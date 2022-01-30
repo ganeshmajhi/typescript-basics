@@ -46,3 +46,25 @@ enum direction2{
     Right ='for'
 }
 console.log(direction2.Left)
+
+// Object
+
+const user: {
+    id: number,
+    name: string
+} 
+
+ = {
+    id: 1,
+    name: 'ganesh'
+}
+
+type User1={
+    id: number
+    name: string
+}
+
+const user2:User1 ={
+    id:1,
+    name: 'ganesh'
+}
