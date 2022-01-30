@@ -94,3 +94,14 @@ function log(message: string | number):void {
     console.log(message)
 }
 log('hello')
+
+// Interface - Interface is used for object
+interface User4 {
+    readonly id: number,
+    name: string,
+    age?:number
+}
+const perid:User4 ={
+    id:1,
+    name:'gani'
+}

@@ -62,3 +62,7 @@ function log(message) {
     console.log(message);
 }
 log('hello');
+var perid = {
+    id: 1,
+    name: 'gani'
+};
