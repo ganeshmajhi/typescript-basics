@@ -80,4 +80,15 @@ class Person {
     }
 }
 const gan = new Person(1, 'ganesh');
-console.log(gan.register());
+// Class
+class Gania {
+    constructor(soid, name) {
+        this.soid = soid;
+        this.name = name;
+    }
+    register() {
+        return `${this.name} is registered`;
+    }
+}
+const sus = new Gania(1, 'ganesh');
+console.log(sus.name);

@@ -136,4 +136,26 @@ class Person{
 
 const gan = new Person(1,'ganesh')
 
-console.log(gan.register())
+//console.log(gan.register())
+
+//Implements Interface In Class
+
+interface User9 {
+    soid: number
+    name: string
+    register():string
+}
+// Class
+class Gania implements User9{
+ soid: number
+ name: string
+ constructor(soid:number,name:string){
+     this.soid = soid
+     this.name = name
+ }
+ register(){
+     return `${this.name} is registered`
+ }
+}
+const sus = new Gania(1,'ganesh')
+console.log(sus.name)
