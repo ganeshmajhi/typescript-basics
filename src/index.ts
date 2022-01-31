@@ -86,14 +86,14 @@ function addNum(x:number,y:number):number{
     return x+y
 }
 
-console.log(addNum(54,3))
+//console.log(addNum(54,3))
 
 // Void Function
 
 function log(message: string | number):void {
     console.log(message)
 }
-log('hello')
+//log('hello')
 
 // Interface - Interface is used for object
 interface User4 {
@@ -115,7 +115,25 @@ interface MathFun {
 const add:MathFun = (x:number,y:number):number => x+y
 const sub:MathFun = (x:number,y:number):number => x-y
 
-console.log(sub(4,5))
+//console.log(sub(4,5))
 
 // Classes
 
+class Person{
+    //private id: number
+    //protected id: number
+    public id: number
+    name: string
+
+    constructor(id:number, name:string){
+        this.id = id,
+        this.name = name
+    }
+    register(){
+        return `${this.name} is registerd`
+    }
+}
+
+const gan = new Person(1,'ganesh')
+
+console.log(gan.register())

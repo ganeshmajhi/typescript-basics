@@ -27,7 +27,7 @@ var direction1;
     direction1[direction1["Left"] = 3] = "Left";
     direction1[direction1["Right"] = 4] = "Right";
 })(direction1 || (direction1 = {}));
-console.log(direction1.Left);
+//console.log(direction1.Left)
 var direction2;
 (function (direction2) {
     direction2["Up"] = "so";
@@ -35,4 +35,49 @@ var direction2;
     direction2["Left"] = "love";
     direction2["Right"] = "for";
 })(direction2 || (direction2 = {}));
-console.log(direction2.Left);
+//console.log(direction2.Left)
+// Object
+const user = {
+    id: 1,
+    name: 'ganesh'
+};
+const user2 = {
+    id: 1,
+    name: 'ganesh'
+};
+// Type Assortion
+let cid = 1;
+let customerId = cid;
+customerId = 4;
+//Example 2
+let xid = 'ganesh';
+let xumerId = xid;
+xumerId = 3;
+//Function
+function addNum(x, y) {
+    return x + y;
+}
+//console.log(addNum(54,3))
+// Void Function
+function log(message) {
+    console.log(message);
+}
+const perid = {
+    id: 1,
+    name: 'gani'
+};
+const add = (x, y) => x + y;
+const sub = (x, y) => x - y;
+//console.log(sub(4,5))
+// Classes
+class Person {
+    constructor(id, name) {
+        this.id = id,
+            this.name = name;
+    }
+    register() {
+        return `${this.name} is registerd`;
+    }
+}
+const gan = new Person(1, 'ganesh');
+console.log(gan.register());
