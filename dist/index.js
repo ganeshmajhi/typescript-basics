@@ -91,4 +91,13 @@ class Gania {
     }
 }
 const sus = new Gania(1, 'ganesh');
-console.log(sus.name);
+//console.log(sus.name)
+// Extending classes or sub classes
+class Emplyoee extends Person {
+    constructor(id, name, position) {
+        super(id, name);
+        this.position = position;
+    }
+}
+const emp = new Emplyoee(3, 'shaun', 'developer');
+console.log(emp.register());

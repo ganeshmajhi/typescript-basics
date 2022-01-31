@@ -158,4 +158,17 @@ class Gania implements User9{
  }
 }
 const sus = new Gania(1,'ganesh')
-console.log(sus.name)
+//console.log(sus.name)
+
+// Extending classes or sub classes
+
+class Emplyoee extends Person{
+    position: string
+    constructor(id:number,name:string,position:string){
+        super(id,name)
+        this.position = position
+    }
+}
+const emp = new Emplyoee (3, 'shaun', 'developer')
+
+console.log(emp.register())
