@@ -100,4 +100,11 @@ class Emplyoee extends Person {
     }
 }
 const emp = new Emplyoee(3, 'shaun', 'developer');
-console.log(emp.register());
+//console.log(emp.register())
+//Generics
+function getArray(items) {
+    return new Array().concat(items);
+}
+let numArray = getArray([1, 2, 3, 4]);
+let strArray = getArray(['ganesh', 'gani', 'gan']);
+numArray.push(1);
